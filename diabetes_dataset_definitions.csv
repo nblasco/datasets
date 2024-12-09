@@ -1,0 +1,10 @@
+Variable,Definición,Rangos Comunes,Valores de Referencia,Notas
+Pregnancies,Número de embarazos que ha tenido la persona.,0-17,N/A,Relevante por el riesgo de diabetes gestacional.
+Glucose,Nivel de glucosa en plasma medido en mg/dL.,0-200,"70-140: Normal, 140-199: Prediabetes, >200: Diabetes.",Valores bajos pueden indicar datos faltantes o errores.
+BloodPressure,Presión arterial diastólica medida en mmHg.,40-130,"<80: Normal, 80-89: Límite alto, >90: Hipertensión.",Indicador importante de salud cardiovascular.
+SkinThickness,Espesor del pliegue cutáneo del tríceps medido en milímetros.,0-99,Normalmente entre 10 y 50 mm.,Usado para estimar el porcentaje de grasa corporal.
+Insulin,Nivel de insulina en suero medido en μU/mL.,0-846,"16-166: Normal, valores altos indican resistencia a la insulina.",Valores de 0 indican datos faltantes o no medidos.
+BMI,"Índice de masa corporal, calculado como peso (kg) / altura (m)^2.",0-67.1,"<18.5: Bajo peso, 18.5-24.9: Peso normal, 25-29.9: Sobrepeso, >=30: Obesidad.",Un valor crítico para detectar obesidad.
+DiabetesPedigreeFunction,Medida de la predisposición genética a la diabetes basada en el historial familiar.,0.078-2.42,"Cuanto mayor, mayor riesgo genético.",Mayor valor implica mayor predisposición genética.
+Age,Edad de la persona en años.,21-81,Diabetes más común en mayores de 45 años.,Importante para entender riesgos por edad.
+Outcome,Variable objetivo que indica si una persona tiene diabetes (1) o no (0).,0 o 1,"0: No tiene diabetes, 1: Tiene diabetes.",Clasificación binaria de diagnóstico de diabetes.
